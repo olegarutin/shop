@@ -1,0 +1,4 @@
+.text-center.row{ data: { controller: 'categories', categories_id_value: @category.id } }
+  %h1
+    = @category.title
+  = render 'products/product', products: @products
