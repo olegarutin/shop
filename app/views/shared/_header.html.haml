@@ -10,6 +10,6 @@
         %li.nav-item
           %a.nav-link{ href: "#" } Link
     %div
-      %form.form-inline.my-2.my-lg-0.d-flex
-        %input.me-1.form-control.mr-sm-2{ "aria-label": "Search", placeholder: "Search", type: "text" }/
+      %form.form-inline.my-2.my-lg-0.d-flex#autocomplete
+        %input.me-1.form-control.mr-sm-2{ "aria-label": "Search", placeholder: "Search", type: "text", data: { behavior: 'autocomplete'} }
         %button.btn.btn-outline-success.my-2.my-sm-0{ type: "submit" } Search
